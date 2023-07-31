@@ -16,6 +16,7 @@ const quickenquiryModel = require('./models/quickenquiryModel')
 const database = require('./database/connection')
 const bodyParser = require('body-parser')
 app.use(cors())
+app.use(express.json())
 app.use(bodyParser.urlencoded({     
     extended: true
   }));
@@ -37,7 +38,6 @@ app.post("/rentalform", async (req,res)=>
     }
 
     try{
-      console.log(req.body)
          const rentalform = await rentalModel.create(req.body)
          return res.status(200).json({
             success:true,

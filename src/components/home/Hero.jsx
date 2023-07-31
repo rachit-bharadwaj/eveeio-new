@@ -96,24 +96,24 @@ const Hero = () => {
                 src="/images/hero/play-icon.svg"
                 alt=""
                 srcset=""
-                className=" px-8 lg:h-16"
+                className="h-10 w-10 "
               />
-              <p>Watch Video</p>
+              <p>Watch&nbsp;Video</p>
              
             </div>
             
           </div>
           <div className=" md:hidden lg:hidden">
             <h1 className="text-yellow-400 text-center my-5 text-2xl font-extrabold ">DOWNLOAD NOW</h1>
-          <div className="p-4 w-full  justify-around flex">
-              <div className="bg-black w-[40%] text-white text-xs border flex rounded-lg p-1 items-center ">
+          <div className="p-4 w-full  justify-between flex">
+              <div className="bg-black w-[45%] text-white text-xs border flex rounded-lg p-1 items-center ">
                 <img src="/images/hero/google-play 1.svg" alt="" srcset="" className="h-10 w-10"/>
                 <p>
                   Get it on <p className="text-sm font-bold"> Google play</p>
                 </p>
               </div>
 
-              <div className="bg-black w-[40%] text-white text-xs  border flex rounded-lg p-1 space-x-2 ">
+              <div className="bg-black w-[45%] text-white text-xs  border flex rounded-lg p-1 space-x-2 items-center">
                 <img
                   src="/images/hero/ic_baseline-apple.svg"
                   alt=""
